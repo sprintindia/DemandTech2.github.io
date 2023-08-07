@@ -752,6 +752,9 @@ blockquote cite:before {
 .rs-carousel.nav-style1 {
     position: relative;
 }
+.wrap{
+    background: #0082f1;
+}
 
 .rs-carousel.nav-style1 .owl-nav {
     display: block;
@@ -8159,6 +8162,13 @@ body .search-modal .close:hover {
     background-color: #0082F136;
     text-align: center;
     margin: 0 -13px 0 0;
+}
+.rs-testimonial.style4 .testi-item .testi-wrap1 {
+    padding: 40px 40px 40px 40px;
+    background-color: #0082F136;
+    text-align: center;
+    margin: 0 -13px 0 0;
+    padding-left: 10px;
 }
 
 .rs-testimonial.style4 .testi-item .testi-wrap .image-wrap {
