@@ -336,6 +336,11 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.bg161 {
+    /* background-image: url(assets/images/bg/testi-bg3.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .bg17 {
     background-image: url(assets/images/bg/team-bg3.jpg);
