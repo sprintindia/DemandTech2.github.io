@@ -1529,7 +1529,7 @@ blockquote cite:before {
 }
 
 .sec-title .title {
-    font-size: 36px;
+    font-size: 28px;
     line-height: 46px;
     font-weight: 700;
     color: #0a0a0a;
@@ -9677,12 +9677,12 @@ body .search-modal .close:hover {
 }
 
 .rs-contact.home3-contact-style .contact-wrap {
-    padding: 60px 60px 83px 60px;
+    padding: 32px 32px 83px 32px;
     background: #ffffff;
 }
 
 .rs-contact.home3-contact-style .contact-wrap .from-control {
-    padding: 20px 20px 20px 20px;
+    padding: 8px 8px 8px 8px;
     border-style: solid;
     border-width: 0px 0px 0px 0px;
     border-color: #FFFFFF;
@@ -9728,7 +9728,7 @@ body .search-modal .close:hover {
     background-image: url(assets/images/contact/con-home3.jpg);
     background-position: top left;
     background-size: cover;
-    padding: 70px 50px 99px 50px;
+    padding: 70px 50px 113px 50px;
 }
 
 .rs-contact.home3-contact-style .icon-box-wraper .icon-box-item {

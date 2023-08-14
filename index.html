@@ -770,63 +770,7 @@
         </div>
         <!-- Project Section End -->
 
-        <!-- Why Choose Section Start -->
-        <!-- <div class="rs-choose bg15 pt-100 pb-100 md-pt-70 md-pb-70">
-            <div class="container custom">
-                <div class="row y-middle">
-                    <div class="col-lg-6 md-mb-50">
-                        <div class="rs-videos choose-video home3-video-style">
-                            <div class="images-video">
-                                <img src="assets/images/video/choose-video.jpg" alt="images">
-                            </div>
-                            <div class="animate-border blue-color-style">
-                                <a class="popup-border" href="https://www.youtube.com/watch?v=FMvA5fyZ338">
-                                        <i class="fa fa-play"></i>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 pl-65 md-pl-15">
-                        <div class="sec-title mb-30">
-                            <span class="sub-text small">Why choose us</span>
-                            <h2 class="title title3 pb-25">A right choice that makes the difference to others</h2>
-                            <p class="margin-0">We donec pulvinar magna id leoersi pellentesque impered upon dignissim rhoncus euismod euismod eros vitae.</p>
-                        </div>
-                        <!
-                        <div class="rs-skillbar style1 home3-skillbar-style">
-                            <div class="cl-skill-bar">
-            
-                                <span class="skillbar-title">Business Planning</span>
-                                <div class="skillbar" data-percent="90">
-                                    <p class="skillbar-bar"></p>
-                                    <span class="skill-bar-percent"></span>
-                                </div>
-            
-                                <span class="skillbar-title">Financial Advices</span>
-                                <div class="skillbar" data-percent="85">
-                                    <p class="skillbar-bar"></p>
-                                    <span class="skill-bar-percent"></span>
-                                </div>
-            
-                                <span class="skillbar-title">Investment Strategy</span>
-                                <div class="skillbar" data-percent="75">
-                                    <p class="skillbar-bar"></p>
-                                    <span class="skill-bar-percent"></span>
-                                </div>
-            
-                                <span class="skillbar-title">Business Security</span>
-                                <div class="skillbar margin-no" data-percent="65">
-                                    <p class="skillbar-bar"></p>
-                                    <span class="skill-bar-percent"></span>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- Why Choose Section Start -->
+       
 
         <!-- Testimonial Section Start -->
         <div class="rs-testimonial style4 bg16 pt-95 pb-100 md-pt-65 md-pb-70">
@@ -997,33 +941,54 @@
             <div class="container">
                 <div class="row margin-0">
                     <div class="col-lg-8 padding-0 md-mb-50">
-                        <div class="contact-wrap">
-                            <div class="sec-title mb-55 md-mb-35">
-                                <span class="sub-text small">Contact Us</span>
-                                <h2 class="title title3">Get In Touch</h2>
-                            </div>
-                            <div id="form-messages"></div>
-                            <form id="contact-form" method="post" action="mailer.php">
-                                <fieldset>
-                                    <div class="row">
-                                        <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                                            <input class="from-control" type="text" id="name" name="name" placeholder="Name" required="">
-                                        </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                                            <input class="from-control" type="text" id="email" name="email" placeholder="E-Mail" required="">
-                                        </div>
-                                       
-                                        
+                        <div class="contact-wrap" style="background: linear-gradient(to bottom, rgba(95,161,252,0.71) 0%,rgba(169,228,247,0.54) 100%);">
+                           
+                            <div class="form-group Newsletter">
 
-                                     
+                                <h1 style=" font-size: 25px;">Stay updated with our Newsletter</h1>
+                                <br>
+               
+                               <input type="text" placeholder="Name" id="name" name="name" class="form-control border-0 bg-light shadow-sm" required="" fdprocessedid="uhp7cg">
+                               <p></p>
+                               <input type="email" placeholder="Email" id="email" name="email" class="form-control border-0 bg-light shadow-sm" required="" fdprocessedid="qp8qs"> <br>
+                               <input type="hidden" value="Newsletter Subscription" name="subject" id="subject">
+               
+
+                               <input type="checkbox" name="opt_in" id="box" value="Subscribed" required=""> <span class="mx-1 " >By checking this box, you agree to receive <br>
+                                 <span class="mx-4">newsletters and
+                                    communications.</span> </span> <br><br>
+               
+
+               
+               
+                               <button type="submit" class="btn btn-primary shadow-sm" fdprocessedid="4tfw1d">Sign up for free</button>
+               
+                             </div>
+                            <div id="form-messages"></div>
+                            <!-- <form id="contact-form" method="post" action="mailer.php">
+                                <fieldset >
+                                    <div class="row d-grid align-items-center">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 mb-30 mx-auto ">
+                                            <input class="from-control shadow-lg rounded" type="text" id="name" name="name" placeholder="Name" required="">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 mb-30 mx-auto ">
+                                            <input class="from-control shadow-lg rounded" type="text" id="email" name="email" placeholder="E-Mail" required="">
+                                        </div>
+                                        
                                     </div>
-                                    <div class="btn-part">
-                                        <div class="form-group mb-0">
-                                            <input class="readon submit blue-small" type="submit" value="Submit Now">
+                                
+                                        
+                                        
+                                            
+                                        
+                                
+                                    <div class="btn-part ">
+                                        <div class="form-group mb-0 ">
+                                            <input class="readon submit blue-small mx-auto shadow-lg rounded" type="submit" value="Sign up for free">
                                         </div>
                                     </div>
                                 </fieldset>
-                            </form>
+                            </form> -->
                         </div>
                     </div>
                     <div class="col-lg-4 padding-0">
